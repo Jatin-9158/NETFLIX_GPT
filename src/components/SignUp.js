@@ -14,7 +14,7 @@ const SignUp = () => {
 
   
   const actionCodeSettings = {
-    url: 'http://localhost:3000/', 
+    url: 'https://netflix-gpt-two-green.vercel.app/', 
     handleCodeInApp: true,
   };
 
