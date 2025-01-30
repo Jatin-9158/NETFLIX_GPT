@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { createUserWithEmailAndPassword, sendSignInLinkToEmail} from 'firebase/auth';
-import { auth } from '../utils/firebase'; // Import auth from your firebase.js file
+import { auth } from '../utils/firebase'; 
 import { setDoc,doc } from "firebase/firestore";
 import { db } from "../utils/firebase";
 const SignUp = () => {
@@ -12,6 +12,7 @@ const SignUp = () => {
   const [confirmPassword, setConfirmPassword] = useState('');
   const navigate = useNavigate();
 
+  
   const actionCodeSettings = {
     url: 'http://localhost:3000/', 
     handleCodeInApp: true,

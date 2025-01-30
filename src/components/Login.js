@@ -54,12 +54,12 @@ const Login = () => {
     sendPasswordResetEmail(auth, email)
   .then(() => {
     setError("Password reset email sent! Check your inbox.");
-    // ..
+
   })
   .catch((error) => {
     const errorCode = error.code;
     const errorMessage = error.message;
-    // ..
+ 
   });
   
     
