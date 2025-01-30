@@ -60,7 +60,7 @@ function App() {
       <BrowserRouter>
         <Header />
 
-        {/* Google Translate Dropdown */}
+       
         <div
           id="google_translate_element"
           className="absolute bottom-5 right-5 z-50 h-15 bg-zinc-800 text-white py-2 px-4 rounded-xl border opacity-80 border-gray-400 transition-all duration-300 ease-in-out"
