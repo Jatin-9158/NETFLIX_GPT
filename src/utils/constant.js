@@ -24,4 +24,4 @@ export const lang = [
     name:"Spanish",
   }
 ]
-export const OPENAI_KEY = "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";
+export const GEMINIAI_KEY = "AIzaSyBIZ-qHAs7mrjKiYR_hIn2D5KsMUydsQWI";

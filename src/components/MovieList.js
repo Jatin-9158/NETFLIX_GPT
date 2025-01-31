@@ -10,7 +10,7 @@ const MovieList = ({ title, movies }) => {
             <div className="flex gap-4 whitespace-nowrap animate-scroll-left scroll-smooth">
                 {movies.map((movie) => (
                     <div key={movie.id} className="flex-shrink-0">
-                        <MovieCard posterPath={movie.backdrop_path} title = {movie.title} />
+                   { (movie.poster_path || movie.backdrop_path) ? <MovieCard posterPath={movie.poster_path} title = {movie.title} backdropPath={movie.backdrop_path}/> : null}
                     </div>
                 ))}
             

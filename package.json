@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@google-cloud/translate": "^8.5.0",
+    "@google/generative-ai": "^0.21.0",
     "cra-template": "1.2.0",
     "firebase": "^11.1.0",
     "firebase-function": "^1.4.121",
