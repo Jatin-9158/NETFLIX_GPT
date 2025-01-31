@@ -8,7 +8,7 @@ export const options = {
   method: 'GET',
   headers: {
     accept: 'application/json',
-    Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwY2RlZmE2OTc1YTljNjY0MTFkY2M5ZmE4YTBjNjkzOCIsIm5iZiI6MTczNzgxMjYwNy4xMjUsInN1YiI6IjY3OTRlYTdmNTc5NzVmMWIwYjE4OGU3MiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Qwxw0J2S53XXiKAZ2zO02wkoCEE1xziKqkdiR18xNY4'
+    Authorization: 'Bearer '+ process.env.REACT_APP_TMDB_KEY,
   }
 };
 
@@ -24,4 +24,3 @@ export const lang = [
     name:"Spanish",
   }
 ]
-export const GEMINIAI_KEY = "AIzaSyBIZ-qHAs7mrjKiYR_hIn2D5KsMUydsQWI";

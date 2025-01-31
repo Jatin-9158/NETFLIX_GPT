@@ -18,7 +18,7 @@ const GptSearchBar = () => {
   const handleGptSearch = async () => {
     const { GoogleGenerativeAI } = require("@google/generative-ai");
 
-    const genAI = new GoogleGenerativeAI(GEMINIAI_KEY);
+    const genAI = new GoogleGenerativeAI(process.env.REACT_APP_GEMINIAI_KEY);
     const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
     const prompt = "Acts as a Movie Recommendation System and suggest some movies for the query  :" + searchText.current.value + ". only give me name of 5 movies , comma seperated example Don,Indra the Tiger,Himmatwar,Baadshah,Sholay,Sultan,Golmaal Make sure if no results are found do not tell me any results";

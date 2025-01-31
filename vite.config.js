@@ -2,14 +2,14 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   server: {
-    cors: true, // This enables CORS for all origins during development
+    cors: true, 
   },
   optimizeDeps: {
-    exclude: ['firebase-functions'], // Exclude firebase-functions from optimization
+    exclude: ['firebase-functions'], 
   },
   resolve: {
     alias: {
-      'async_hooks': false, // Prevent async_hooks resolution
+      'async_hooks': false, 
     },
   },
 });
