@@ -59,7 +59,6 @@ function App() {
     <>
       <BrowserRouter>
         <Header />
-
        
         <div
           id="google_translate_element"

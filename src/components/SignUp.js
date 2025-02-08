@@ -67,7 +67,7 @@ const SignUp = () => {
 
       <form
         onSubmit={handleSignUp}
-        className="absolute bg-black top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col w-1/3 p-20 text-white opacity-90 rounded-md"
+        className="absolute bg-black top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col w-1/3 p-12 text-white opacity-90 rounded-md"
       >
         <h1 className="text-3xl font-bold mx-2 my-4">Sign Up</h1>
         <input

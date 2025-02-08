@@ -78,7 +78,7 @@ const Login = () => {
         className="absolute bg-black top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col w-[440px] py-10 px-12 text-white opacity-80 rounded-md"
       >
         <h1 className="text-3xl font-bold mx-2 my-4">Sign In</h1>
-        {error && <p className="text-red-500 text-center font-bold mb-4">{error}</p>}
+        {error && <p className="text-red-500 text-center font-bold mb-4 break-words">{error}</p>}
 
         <input
           className="p-4 mx-2 my-2 rounded-sm bg-gray-800 bg-opacity-70"
